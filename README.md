@@ -1,6 +1,14 @@
 # Datenlord_interview
  A interview's code that handshake.
+ 
  本代码依照面试要求，完成了一个基于AXI总线握手协议的场景示例电路。
+ 
+ 仿真波形图总体体现了总线高性能传输，无气泡，逐级反压，传输未丢数据。
+ 
+ 实现了假定valid或ready信号不满足时序要求，用寄存器打一拍。
+ 
+ **另外，为了更好的描述设计思想，绘制了概念图加入到仓库中。**
+ 
  ## 核心部分代码描述
  ```verilog
  always@(posedge clk or negedge rst) //This is master
@@ -50,6 +58,3 @@ begin
 	valid_o_slave <= 1'b0;
 	end
 end
-
-## 示例图、波形图及文字描述
-相关描述已经上传至本仓库，更具体的描述了所做的工作
