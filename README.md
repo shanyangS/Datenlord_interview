@@ -7,9 +7,15 @@
  
  实现了假定valid或ready信号不满足时序要求，用寄存器打一拍。
  
- **另外，为了更好的描述设计思想，绘制了概念图加入到仓库中。**
+  **另外，为了更好的描述设计思想，绘制了概念图加入到仓库中。**
  
- ## 核心部分代码描述
+## 2022-5-3 更新如下
+采取了目前行业内最广泛应用的解决方案：**skid_buffer**来设计代码，并编写顶层模块进行链接例化。
+参考链接：http://fpgacpu.ca/fpga/Pipeline_Skid_Buffer.html
+ 
+
+ 
+## 核心部分代码描述(旧代码2022-5-2，实现了一个流水线结构，但会丢失数据，打拍时产生数据丢失严重)
  ```verilog
  always@(posedge clk or negedge rst) //This is master
 begin
