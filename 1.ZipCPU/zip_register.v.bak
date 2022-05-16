@@ -150,9 +150,9 @@ module skidbuffer #(
 
 		// o_ready
 		// {{{
-		assign o_ready = !r_valid;	//A complex logic.
+		assign o_ready = !r_valid;
 		// }}}
-	
+
 		//
 		// And then move on to the output port
 		//
