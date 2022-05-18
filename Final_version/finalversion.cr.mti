@@ -1,1 +1,8 @@
+C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module my_skid
 
+Top level modules:
+	my_skid
+
+} {} {}}
