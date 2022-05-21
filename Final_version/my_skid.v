@@ -23,8 +23,7 @@ if(i_reset)
 else if((i_valid && o_ready) && (o_valid && !i_ready)) //There is a data, but next-stage is stalled
 	r_valid <= 1;
 else if(i_ready)
-	r_ready <= i_ready; //one beat
-	r_valid <= !r_ready;
+	r_valid <= !i_ready;
 end
 
 always@(*)

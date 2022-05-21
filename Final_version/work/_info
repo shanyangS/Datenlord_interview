@@ -9,23 +9,65 @@ z2
 cModel Technology
 dC:/IC/verilog_project/ip349_verilog
 vmy_skid
-!s110 1652892218
+Z0 !s110 1653102042
 !i10b 1
-!s100 63U]9kPn5DKjYb^4VHfO10
-ILWEB9m5Dg6XCO;NWH49ZK0
-VDg1SIo80bB@j0V0VzS_@n1
-dC:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version
-w1652892216
+!s100 E[UinCk:Rc9AndMEDB]@42
+I=85cQCijl;6kXT62j?Pzl2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version
+w1653101756
 8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid.v
 FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid.v
 L0 1
-OL;L;10.6d;65
+Z3 OL;L;10.6d;65
 r1
 !s85 0
 31
-!s108 1652892218.000000
+Z4 !s108 1653102042.000000
 !s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid.v|
 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid.v|
 !i113 1
-o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-tCvgOpt 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vmy_skid_tb
+R0
+!i10b 1
+!s100 Nk3VoD@KClO_Em6J_C;gm1
+I5A^7zVkCo?hcoMka92L;H3
+R1
+R2
+w1653102030
+8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_tb.v
+FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_tb.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_tb.v|
+!i113 1
+R5
+R6
+vmy_skid_top
+R0
+!i10b 1
+!s100 fP[f]RQFB9bPcTKEFM1<H1
+IXiHce6n5ZfnALRbBHGXbN1
+R1
+R2
+w1653101152
+8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_top.v
+FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_top.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/Final_version/my_skid_top.v|
+!i113 1
+R5
+R6
