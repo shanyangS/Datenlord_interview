@@ -46,7 +46,7 @@ end
 
 /* when the data come in,copy it. */
 always@(posedge i_clk) 
-if(i_valid && o_ready) //hand_shake_protocol
+if(i_valid && o_ready) 
 	r_data <= i_data;
 
 initial	o_data = 0;	//reg out

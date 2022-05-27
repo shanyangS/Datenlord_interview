@@ -7,7 +7,7 @@ module cy_skidbuffer
 )
 (
 	input	wire	i_clk, i_reset, i_valid,i_ready,		
-	output	wire	o_valid,
+	output	reg	o_valid,
 	output	reg	o_ready,
 
 
