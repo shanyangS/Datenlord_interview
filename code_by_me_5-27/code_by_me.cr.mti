@@ -1,16 +1,16 @@
-C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_top_tb.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_top_tb.v
-Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module cy_skidbuffer_top_tb
-
-Top level modules:
-	cy_skidbuffer_top_tb
-
-} {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_by_me.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_by_me.v
+C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_by_me.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_by_me.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module cy_skidbuffer
 
 Top level modules:
 	cy_skidbuffer
+
+} {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_top_tb.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_top_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module cy_skidbuffer_top_tb
+
+Top level modules:
+	cy_skidbuffer_top_tb
 
 } {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_top.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/code_by_me_5-27/code_top.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
