@@ -1,8 +1,7 @@
 module my_skid
 #
 (
-	parameter DW = 8,
-	parameter OPT_OUTREG = 1 //REG OUT, NOT COMB OUT
+	parameter DW = 8
 )
 (
 	input wire i_clk, i_reset, i_valid, i_ready,
@@ -35,26 +34,17 @@ if(o_ready)
 	r_data <= i_data;
 end
 
-generate if(!OPT_OUTREG) //we need use initial
-begin
-	always@(*)
-		o_valid = (i_valid || r_valid);
-	always@(*)
-	if(r_valid)
-		o_data = r_data;
-	else
-		o_data = i_data;
-end else //code below this is reg out!
-	begin
-	initial o_valid = 0;
-	always@(posedge i_clk)
+
+initial o_valid = 0;
+always@(posedge i_clk)
 	if(i_reset)
 		o_valid <= 0;
 	else if(!o_valid || i_ready) // "!(o_valid && !i_ready)"
 		o_valid <= (i_valid || r_valid);
 	////////////////////////////////////////
-	initial o_data = 0;
-	always@(posedge i_clk)
+
+initial o_data = 0;
+always@(posedge i_clk)
 	if(i_reset)
 		o_data <= 0;
 	else if(!o_valid || i_ready) 
@@ -66,8 +56,8 @@ end else //code below this is reg out!
 		else
 			o_data <= 0;
 	end
-end 
-endgenerate
+	///////////////////////////////////////
+	
 
 endmodule
 
