@@ -17,7 +17,7 @@ module cy_skidbuffer
 
 reg			r_valid;
 reg[DW-1:0]		r_data;
-
+reg			r_ready;
 
 /* valid sequential section */
 initial	r_valid = 0;
@@ -30,17 +30,22 @@ else if((i_valid && o_ready) && (o_valid && !i_ready))	//have incoming data, but
 else if(i_ready)	//data has already go
 	r_valid <= 0;
 end
-/*
-always@(posedge clk)
-	if((i_valid && o_ready) && (o_valid && !i_ready))
-	o_ready = 0;
-	else if(i_ready)
-	o_ready = 1;
-*/
-/* ready sequential section */
-always@(*)
-	o_ready = !r_valid;  //o_ready to make the i_ready fit the sequence
 
+/* ready sequential section */
+always@(posedge i_clk)
+begin
+if(i_reset)
+	r_ready <= 0;
+if((i_valid && o_ready) && (o_valid && !i_ready))
+	r_ready <= 1;
+else if(i_ready)
+	r_ready	= 0;
+	o_ready = !r_ready;
+end
+
+/*always@(*)
+	o_ready = !r_valid;  //o_ready to make the i_ready fit the sequence
+*/
 ////////////////////////////////////////////////////////////////////////////////
 
 /* when the data come in,copy it. */
