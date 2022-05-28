@@ -40,7 +40,7 @@ if((i_valid && o_ready) && (o_valid && !i_ready))
 	r_ready <= 1;
 else if(i_ready)
 	r_ready	= 0;
-	o_ready = !r_ready;
+	o_ready = !r_ready;	//reg out
 end
 
 /*always@(*)

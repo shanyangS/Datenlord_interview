@@ -42,6 +42,7 @@ else if(i_ready)
 	r_ready	= 0;
 	o_ready = !r_ready;
 end
+
 /*always@(*)
 	o_ready = !r_valid;  //o_ready to make the i_ready fit the sequence
 */
