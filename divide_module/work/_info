@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_10.6d/examples
+vcy_skidbuffer
+Z0 !s110 1653750542
+!i10b 1
+!s100 FZCA=^dMCnYm5eMg6WVHM3
+IiBYa<Mb>[5@L0zKXdO[EQ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module
+w1653748815
+8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/code_by_me.v
+FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/code_by_me.v
+L0 3
+Z3 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z4 !s108 1653750542.000000
+!s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/code_by_me.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/code_by_me.v|
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vready_dp
+R0
+!i10b 1
+!s100 g05hh@NZic`h1L6GNCV5H3
+IkEATKFNGP1aT]2:dL[Vz?2
+R1
+R2
+w1653749319
+8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v
+FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v|
+!i113 1
+R5
+R6
+vsingle_tb
+R0
+!i10b 1
+!s100 83@zZL?HSkb]Bh6Z7b=Xl0
+IPJN@G4m=_hLMPc<f??2292
+R1
+R2
+w1653748129
+8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/single_tb.v
+FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/single_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/single_tb.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/single_tb.v|
+!i113 1
+R5
+R6
+vvalid_dp
+R0
+!i10b 1
+!s100 zf^VB;i<Rm`0[l?loWc9[3
+I`Qkl?J2QhU_4GDIHLmW=R3
+R1
+R2
+w1653749491
+8C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_valid.v
+FC:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_valid.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_valid.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_valid.v|
+!i113 1
+R5
+R6
