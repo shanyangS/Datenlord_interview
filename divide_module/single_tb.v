@@ -28,13 +28,25 @@ cy_skidbuffer t1
 	i_clk = 1'b0;
 	i_reset = 1'b1;
         #80 i_reset = 1'b0;
-	#100 i_data <= 8'b10110011; i_valid <= 1'b1; i_ready <= 1'b1; //Start
-	#100 i_data <= 8'b11100011; i_valid <= 1'b1; i_ready <= 1'b1;
-	#100 i_data <= 8'b10110011; i_valid <= 1'b1; i_ready <= 1'b1;
-	#100 i_data <= 8'b11111001; i_valid <= 1'b1; i_ready <= 1'b0;
-	#100 i_data <= 8'b10110001; i_valid <= 1'b1; i_ready <= 1'b1;
-	#100 i_data <= 8'b10000101; i_valid <= 1'b1; i_ready <= 1'b0;
-	#100 i_data <= 8'b11101111; i_valid <= 1'b1; i_ready <= 1'b1;
+/*BIG DATA*/
+	#20 i_data <= 8'b10111111; i_valid <= 1'b1; i_ready <= 1'b1; //Start
+	#20 i_data <= 8'b11101011; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b00110011; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b11111001; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b10110001; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b01010101; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b11101111; i_valid <= 1'b1; i_ready <= 1'b1;
+////////////////////////////////////////////////////////////////////////
+/*EVERY SLAVE'S READY CHANGE*/
+	#20 i_data <= 8'b10110011; i_valid <= 1'b1; i_ready <= 1'b1; //Start
+	#20 i_data <= 8'b01100011; i_valid <= 1'b1; i_ready <= 1'b0;
+	#20 i_data <= 8'b10110011; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b11111001; i_valid <= 1'b1; i_ready <= 1'b0;
+	#20 i_data <= 8'b10110001; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b10000101; i_valid <= 1'b1; i_ready <= 1'b0;
+	#20 i_data <= 8'b11101111; i_valid <= 1'b1; i_ready <= 1'b1;
+	#20 i_data <= 8'b00101111; i_valid <= 1'b1; i_ready <= 1'b1;
+
 	#100 $stop;
    end
 
