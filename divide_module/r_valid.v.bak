@@ -4,6 +4,7 @@ module valid_dp
 	output	reg	o_valid, r_valid
 );
 
+
 initial r_valid = 0;
 always@(posedge i_clk)
 begin

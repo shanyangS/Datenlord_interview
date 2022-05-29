@@ -19,7 +19,6 @@ cy_skidbuffer t1
 .i_data(i_data),
 .o_data(o_data),
 .o_ready(o_ready),
-.r_valid(r_valid),
 .o_valid(o_valid)
 );
 

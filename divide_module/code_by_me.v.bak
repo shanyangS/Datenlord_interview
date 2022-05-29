@@ -12,12 +12,11 @@ module cy_skidbuffer
 
 
 	input	wire[DW-1:0]	i_data,
-	output	reg[DW-1:0]	o_data,
-	output	wire	r_valid
+	output	reg[DW-1:0]	o_data
 );
 
 reg[DW-1:0]		r_data;
-
+wire	r_valid;
 
 ready_dp r1
 (

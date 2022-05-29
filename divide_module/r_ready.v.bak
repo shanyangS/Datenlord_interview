@@ -19,5 +19,13 @@ end
 
 always@(*)
 	o_ready <= !r_ready;
-
+initial	o_ready = 0;	//reg out
+always@(posedge i_clk)
+	begin
+		if(i_reset)
+			o_ready <= 0;
+		else //Never stop
+			o_ready <= !r_ready;
+	end
+	
 endmodule

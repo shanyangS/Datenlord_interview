@@ -5,19 +5,19 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 Top level modules:
 	valid_dp
 
-} {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v
-Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module ready_dp
-
-Top level modules:
-	ready_dp
-
 } {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/code_by_me.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/code_by_me.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module cy_skidbuffer
 
 Top level modules:
 	cy_skidbuffer
+
+} {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/r_ready.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ready_dp
+
+Top level modules:
+	ready_dp
 
 } {} {}} C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/single_tb.v {1 {vlog -work work -novopt -stats=none C:/Users/a5031/Desktop/Github_local/Datenlord_interview/divide_module/single_tb.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
